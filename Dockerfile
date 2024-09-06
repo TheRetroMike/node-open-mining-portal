@@ -6,7 +6,6 @@ WORKDIR /opt/
 RUN git clone https://github.com/TheRetroMike/node-open-mining-portal
 
 WORKDIR /opt/node-open-mining-portal
-RUN npm install
 RUN npm update
 RUN rm -rf pool_configs
 RUN rm -rf coins
