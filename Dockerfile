@@ -1,4 +1,4 @@
-FROM node:10.19.0
+FROM node:10.19.0-buster
 RUN apt-get update
 RUN apt-get install -y sudo git nano curl
 
